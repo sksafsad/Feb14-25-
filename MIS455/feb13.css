@@ -1,0 +1,45 @@
+/* container display style is below: */
+.container{
+    display: flex; 
+    /* display: grid;
+    grid-template-columns: 1fr 2fr 1fr; */
+    columns: 3fr 1fr;
+}
+
+
+img {
+    width: 50px; 
+}
+
+.top {
+    width:50% ; 
+    border: 2px solid rgb(125, 109, 109);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.middle {
+
+    width: 50%;
+    border: 2px solid rgb(115, 170, 115);
+    /* margin: auto; */
+    padding: 10px;
+}
+
+.bottom {
+
+    width: 50%;
+    border: 2px solid rgb(150, 97, 70);
+    margin: 10px;
+    padding: 10px;
+    float: right; 
+    
+}
+
+.common {
+   border-radius: 15px;
+   box-shadow: 3px 5px 6px grey;
+   background-color: rgb(222, 191, 152);
+
+}
